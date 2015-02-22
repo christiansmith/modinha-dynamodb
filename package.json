@@ -1,0 +1,33 @@
+{
+  "name": "modinha-dynamodb",
+  "version": "0.0.0",
+  "description": "DynamoDB persistence for Modinha",
+  "main": "lib/DynamoDBDocument.js",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register -R spec --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/christiansmith/modinha-dynamodb.git"
+  },
+  "author": {
+    "name": "Christian Smith",
+    "email": "smith@anvil.io",
+    "url": "http://anvil.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christiansmith/modinha-dynamodb/issues"
+  },
+  "homepage": "https://github.com/christiansmith/modinha-dynamodb",
+  "devDependencies": {
+    "chai": "^2.0.0",
+    "coffee-script": "^1.9.1",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2",
+    "sinon-chai": "^2.7.0"
+  },
+  "dependencies": {
+    "modinha": "0.0.24"
+  }
+}
