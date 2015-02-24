@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/christiansmith/modinha-dynamodb",
   "devDependencies": {
+    "Faker": "^0.7.2",
     "chai": "^2.0.0",
     "coffee-script": "^1.9.1",
     "mocha": "^2.1.0",
@@ -28,6 +29,8 @@
     "sinon-chai": "^2.7.0"
   },
   "dependencies": {
+    "aws-sdk": "^2.1.13",
+    "dynamodb-doc": "^1.0.0",
     "modinha": "0.0.24"
   }
 }
